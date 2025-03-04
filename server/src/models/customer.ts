@@ -1,5 +1,5 @@
-import { DataTypes, Sequelize, Model, Optional } from 'sequelize';
-import  Order  from '../models/order.js';  
+import { DataTypes, type Sequelize, Model, type Optional } from 'sequelize';
+//import bcrypt from 'bcrypt';
  
 interface CustomerAttributes {
   customer_id: number;
@@ -45,19 +45,13 @@ Customer.init(
     
     },
     {
-      sequelize,
+   
       tableName: 'customer',
-      timestamps: true,
+      sequelize,
+      
     }
     );
-  Customer.hasMany(Order, {
-    foreignKey: 'customer_id',
-    as: 'orders'
-  });
-  Order.belongsTo(Customer, {
-    foreignKey: 'customer_id',
-    as: 'customer'
-  });   
+ 
   return Customer;
 }
-export default Customer;
+ 

@@ -1,6 +1,5 @@
-import { DataTypes, Sequelize, Model, Optional } from 'sequelize';
-import sequelize from '../src/config/database';
-import { OrderItem } from './orderItem';
+import { DataTypes, type Sequelize, Model, type Optional } from 'sequelize';
+//import bcrypt from 'bcrypt';
 
 
 interface ProductAttributes {
@@ -58,19 +57,13 @@ Product.init(
       },
     }, 
     {
+      tableName: 'products',
       sequelize,
-      // Manually define the table name
-      tableName: 'product',
-    
-      timestamps: true,
+
      
     }
   );
-  Product.hasMany(OrderItem, {
-
-    foreignKey: 'product_id'});
-  OrderItem.belongsTo(Product, {
-    foreignKey: 'product_id'});  
+ 
   return Product;
 }
-export default Product;
+
