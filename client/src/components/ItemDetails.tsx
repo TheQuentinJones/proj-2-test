@@ -25,8 +25,8 @@ const items = [
 ];
 
 const ItemDetails: React.FC = () => {
-  const { id } = useParams<{ id: string |undefined}>();
-  const item = items.find(item => item.id === parseInt(id || ''));
+  const { id } = useParams<{ id: string }>();
+  const item = items.find(item => item.id === parseInt(id));
 
   if (!item) {
     return <div>Item not found</div>;
