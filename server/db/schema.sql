@@ -1,5 +1,5 @@
 -- DROP DATABASE
-DROP DATABASE IF EXISTS friends_db;
+DROP DATABASE IF EXISTS online_store_db;
 
 -- CREATE DATABASE
-CREATE DATABASE friends_db;
+CREATE DATABASE online_store_db;

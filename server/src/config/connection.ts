@@ -4,6 +4,7 @@ dotenv.config();
 import { Sequelize } from 'sequelize';
 
 const sequelize = process.env.DB_URL
+ 
   ? new Sequelize(process.env.DB_URL)
   : new Sequelize(
       process.env.DB_NAME || '',
@@ -17,5 +18,6 @@ const sequelize = process.env.DB_URL
         },
       }
     );
-
+console.log('DB_URL:', process.env.DB_URL);
+console.log('DB_NAME:', process.env.DB_NAME);
 export default sequelize;
