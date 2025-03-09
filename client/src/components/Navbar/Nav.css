@@ -1,0 +1,62 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+   align-items: center;
+    box-shadow: 0 1px 3px -2px rgb(16, 15, 15);
+    box-sizing: border-box;
+    background-color: #07030e;
+    border: 1px solid #07030e;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+.nav-logo p{
+    color:#07030e;
+    font-size: 38px;
+    font-weight: 600;
+    padding: auto;
+}
+.nav-menu{
+    display:flex;
+    align-items:center;
+    list-style-type:  none;
+    gap: 50px;
+    color:#545158;
+    font-size:  20px;
+    font-weight: 500;
+}
+  .nav-menu li {
+    cursor: pointer;
+    padding-bottom: 0px;
+  }
+ 
+  .nav-login-cart{
+    display:flex;
+    align-items:center;
+    justify-content:end;
+    gap: 15px;
+   padding-top: 0px;
+   padding-right:2px
+
+  }
+  .nav-login-cart button{
+    width: 157px;
+    height: 58px  ;
+    outline: none;
+    border:1px solid #7a7a7a;
+    border-radius: 75px;
+    color:#515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+
+  }
+  .nav-login-cart button:active{
+   
+    background:#f3f3f3;
+  }
+
+  

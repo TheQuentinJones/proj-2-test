@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from './CartContext';
+import Navbar from './components/Navbar/Navbar';
 
 const items = [
   {
@@ -89,6 +90,7 @@ const Home: React.FC = () => {
 
   return (
     <div>
+      <Navbar/>
       <h1>Welcome to the Home Page</h1>
       <p>This is the homepage after logging in.</p>
       <button onClick={handleLogout}>Logout</button>
