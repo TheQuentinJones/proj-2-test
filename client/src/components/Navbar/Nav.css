@@ -2,7 +2,9 @@
     display:flex;
     justify-content:space-between;
    align-items: center;
-    box-shadow: 0 1px 3px -2px rgb(16, 15, 15);
+    box-shadow: 0 1px 2px -2px rgb(236, 227, 227);
+    padding-top: 20px;
+    padding-bottom: 0px;
 
 }
 .nav-logo {
@@ -21,7 +23,7 @@
     align-items:center;
     list-style-type:  none;
     gap: 50px;
-    color:#545158;
+    color:#e6e0ef;
     font-size:  20px;
     font-weight: 500;
 }
