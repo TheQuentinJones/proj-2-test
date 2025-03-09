@@ -1,3 +1,16 @@
+
+:root {
+  --btlshipgray: #788585;
+  --drkgray: #38302E;
+  --afblue: #508CA4;
+  --grblue: #306BAC;
+}
+
+
+
+
+
+
 .login-container {
   max-width: 400px;
   margin: 0 auto;
@@ -10,11 +23,13 @@
 .login-container h2 {
   text-align: center;
   margin-bottom: 20px;
+  color: var(--afblue);
 }
 
 .login-container form {
   display: flex;
   flex-direction: column;
+  color: var(--afblue);
 }
 
 .login-container label {
@@ -39,4 +54,15 @@
 
 .login-container button:hover {
   background-color: #0056b3;
+}
+
+body {
+  background: linear-gradient(to right, #3b3c36, #002147);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
 }

@@ -38,7 +38,9 @@
     justify-content:end;
     gap: 15px;
    padding-top: 0px;
-   padding-right:2px
+   margin-left: 2px;
+   margin-right: 30px;
+  
 
   }
   .nav-login-cart button{
@@ -52,11 +54,16 @@
     font-weight: 500;
     background: white;
     cursor: pointer;
-
   }
   .nav-login-cart button:active{
    
     background:#f3f3f3;
   }
+  
+.cart-icon {
+  width: 30px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+ margin-right: 100px;
+}
 
   

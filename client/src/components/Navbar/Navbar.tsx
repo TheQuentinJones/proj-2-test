@@ -28,7 +28,7 @@ const Navbar :React.FC= () => {
 
   <div className="nav-login-cart">
     <button>login </button>
-    <img src={cart} alt="Cart" style={{width:'30px',height:'auto'}}/>
+    <img src={cart} alt="Cart" className="Cart-icon" style={{width:'30px',height:'auto'}} />
 </div>
    
 </div>
