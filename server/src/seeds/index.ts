@@ -8,7 +8,7 @@ import sequelize from '../config/connection.js';
 export const seedAll = async (): Promise<void> => {
   console.log('\n----- HOWDY THERE DATABASE -----\n');
   try {
-    await sequelize.sync({ force: true });
+    await sequelize.sync({ force: false });
     console.log('\n----- DATABASE SYNCED -----\n');
 
     await seedUsers();
