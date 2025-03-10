@@ -1,12 +1,13 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
+import IMG from './Components/Assets/Bottle 1.jpeg';
 
 const items = [
   {
     id: 1,
     title: 'Item 1',
     description: 'This is a brief description of item 1.',
-    imageUrl: 'https://via.placeholder.com/150',
+    image: IMG,
   },
   {
     id: 2,
