@@ -1,7 +1,7 @@
 # Project-2
 E-Commerce App "Dev Gear Hub" for Developers
 
-Description
+## Description
 
 This is a full-stack E-Commerce application designed specifically for developers and programmers. The platform offers a variety of products such as mugs, T-shirts with coding slogans, caps, bottles, and other items that resonate with the tech community.
 
@@ -14,7 +14,7 @@ Table of Contents
 - [License](#license)
 - [Contact](#contact)
 
-Features
+## Features
 
 User authentication and authorization
 
