@@ -1,8 +1,56 @@
+
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, } from 'react-router-dom';
 import { useCart } from '../Cart/CartContext';
-import items from '../items'; // Correct import path
-import '../index.css';
+import Navbar from '../Navbar/Navbar'; // Ensure that the Navbar component exists in the correct directory
+import Footer from '../Footer/Footer';
+
+import IMG1 from '../assets/Bottle1.jpeg';
+import IMG2 from '../assets/coder_life_shirt.jpeg';
+import IMG3 from '../assets/mug1.webp';
+import IMG4 from '../assets/Cap1.jpg';
+import IMG5 from '../assets/Mug2.webp';
+import IMG6 from '../assets/Cap3.jpg';
+
+const items = [
+  {
+    id: 1,
+    title: 'Bottle',
+    description: '',
+    imageUrl: IMG1,
+  },
+  {
+    id: 2,
+    title: 'Coder T-shirt',
+    description: '',
+    imageUrl: IMG2,
+  },
+  {
+    id: 3,
+    title: 'Coffee Mug',
+    description: '.',
+    imageUrl: IMG3,
+  },
+  {
+    id: 4,
+    title: 'Cap',
+    description: '.',
+    imageUrl: IMG4,
+  },
+  {
+    id: 5,
+    title: 'Mug for Nerds',
+    description: '.',
+    imageUrl: IMG5,
+  },
+  {
+    id: 6,
+    title: 'Cap for Coders',
+    description: '.',
+    imageUrl: IMG6,
+  },
+  // Add more items here
+];
 
 const Home: React.FC = () => {
   const { addToCart } = useCart();
@@ -13,14 +61,16 @@ const Home: React.FC = () => {
 
   return (
     <div className="home-container">
-      <h1>Welcome to homepage</h1>
-      <p>This is the homepage after logging in.</p>
-      <button onClick={handleLogout}>Logout</button>
-      <Link to="/cart">View Cart</Link>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      <Navbar />
+      <h1 className="center-text">Feature products</h1>
+      <div className="top-right-container"> {/* Added container for Logout and View Cart */}
+        <button onClick={handleLogout}>Logout</button>
+       
+      </div>
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {items.map((item) => (
-          <div key={item.id} className="item">
-            <img src={item.imageUrl} alt={item.title} />
+          <div key={item.id} className="item" style={{ margin: '10px', border: '1px solid #ccc', padding: '10px', width: '200px' }}>
+            <img src={item.imageUrl} alt={item.title} style={{ width: '100%', marginBottom: '10px' }} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>
             <Link to={`/item/${item.id}`}>View Details</Link>
@@ -31,6 +81,7 @@ const Home: React.FC = () => {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 };
