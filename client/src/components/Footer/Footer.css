@@ -1,0 +1,97 @@
+.footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px; /* Adjust the gap as needed */
+   width: 100%;
+   background: #fbfbfb;
+   padding: 20px 0;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
+   border-radius: 10px; /* Apply border radius */
+}
+.footer-signup {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+ }
+ 
+ .footer-signup form {
+   display: flex;
+   gap: 10px;
+ }
+ 
+ .footer-signup input {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ .footer-signup button {
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: #007bff;
+   color: white;
+   cursor: pointer;
+ }
+ .footer-signup button:hover {
+   background-color: #0056b3;
+ }
+ .footer-social-icons {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+ }
+ 
+ .footer-social-icons img {
+   width: 40px; /* Adjust the width as needed */
+   height: 40px;
+ }
+ 
+ .footer-icons-container {
+   display: flex;
+   gap: 20px;
+ }
+ 
+ .footer-links {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   gap: 70px;
+   color: rgb(53, 137, 206);
+   font-size: 20px;
+   margin-bottom: 0%;
+   margin-bottom: 0px;
+   margin-top: 1px;
+   box-sizing: border-box;
+ }
+ 
+ .footer-links li {
+   cursor: pointer;
+ }
+
+ .footer-copyright {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2px;
+   width: 80%;
+   margin-bottom: 0px;
+   color: #1a1a1a;
+   font-size: 10px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+ }
+ 
+ .footer-copyright hr {
+   width: 10%;
+   border: none;
+   height: 2px;
+   background: #c7c7c7;
+   margin-top: 0px;
+ }
