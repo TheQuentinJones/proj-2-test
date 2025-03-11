@@ -1,13 +1,15 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './index.css';
+import './components/index.css'
 import Login from './components/Login/Login.tsx';
 import Home from './components/Home/Home.tsx';
-import ItemDetails from './components/Items/ItemDetails.tsx';
+import ItemDetails from './components/itemDetails.tsx';
 import Cart from './components/Cart/Cart.tsx';
 import { CartProvider } from './components/Cart/CartContext.tsx';
 import LoginSignup from './components/Pages/LoginSignup.tsx';
+
+
 
 
 createRoot(document.getElementById('root')!).render(
