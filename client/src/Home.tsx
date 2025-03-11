@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from './CartContext';
-import Navbar from './components/Navbar/Navbar';
+import IMG from './Components/Assets/Bottle 1.jpeg';
 
 const items = [
   {
     id: 1,
     title: 'Item 1',
     description: 'This is a brief description of item 1.',
-    imageUrl: 'https://via.placeholder.com/150',
+    imageUrl: IMG,
   },
   {
     id: 2,
