@@ -1,15 +1,14 @@
 import React from 'react';
-import { Link, useNavigate, } from 'react-router-dom';
-import { useCart } from '../Cart/CartContext';
-import Navbar from '../Navbar/Navbar'; // Ensure that the Navbar component exists in the correct directory
-import Footer from '../Footer/Footer'; 
+import { Link, useNavigate } from 'react-router-dom';
+import { useCart } from './CartContext';
+import Navbar from './components/Navbar/Navbar';
 
 const items = [
   {
     id: 1,
     title: 'Item 1',
     description: 'This is a brief description of item 1.',
-    imageUrl: 'https://via.placeholder.com/150'
+    imageUrl: 'https://via.placeholder.com/150',
   },
   {
     id: 2,
