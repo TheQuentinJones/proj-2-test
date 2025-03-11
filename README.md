@@ -30,7 +30,7 @@ Admin panel for managing products and orders
 
 Responsive UI for seamless experience on different devices
 
-Technologies Used
+## Technologies Used
 
 Frontend
 
@@ -44,7 +44,7 @@ JavaScript (Node.js/Express.js)
 
 JSON as a database
 
-Installation and Setup
+## Installation and Setup
 
 Clone the repository:
 
@@ -66,7 +66,7 @@ Open the app in your browser at:
 
 http://localhost:3000
 
-Usage
+## Usage
 
 Browse products and add them to the cart
 
@@ -90,11 +90,11 @@ Push to your branch
 
 Open a Pull Request
 
-License
+## License
 
 This project is licensed under the MIT License.
 
-Contact
+## Contact
 
 For any inquiries or support, feel free to reach out to:
 
