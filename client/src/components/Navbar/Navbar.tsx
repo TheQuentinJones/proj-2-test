@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
     <div className="navbar">
       <div className="nav-logo">
         <img src={logo} alt="Logo" style={{ width: '80px', height: 'auto' }} />
-        <p>Dev Merch</p>
+        <p>Dev Gear Hub</p>
       </div>
       <ul className="nav-menu">
         <li><Link to="/home">Home</Link></li>

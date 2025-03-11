@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, } from 'react-router-dom';
 import { useCart } from '../Cart/CartContext';
 import Navbar from '../Navbar/Navbar'; // Ensure that the Navbar component exists in the correct directory
 import Footer from '../Footer/Footer'; 

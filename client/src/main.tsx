@@ -7,15 +7,13 @@ import Home from './components/Home/Home.tsx';
 import ItemDetails from './components/Items/ItemDetails.tsx';
 import Cart from './components/Cart/Cart.tsx';
 import { CartProvider } from './components/Cart/CartContext.tsx';
-import LoginSignup from './components/Pages/LoginSignup.tsx'; // Ensure the correct import path
+import LoginSignup from './components/Pages/LoginSignup.tsx';
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <CartProvider>
-      
       <Router>
-     
-   
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />
@@ -23,7 +21,6 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/signup" element={<LoginSignup />} />
           <Route path="/item/:id" element={<ItemDetails />} />
           <Route path="/cart" element={<Cart />} />
-        
         </Routes>
       </Router>
     </CartProvider>
