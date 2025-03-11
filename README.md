@@ -5,7 +5,7 @@ E-Commerce App "Dev Gear Hub" for Developers
 
 This is a full-stack E-Commerce application designed specifically for developers and programmers. The platform offers a variety of products such as mugs, T-shirts with coding slogans, caps, bottles, and other items that resonate with the tech community.
 
-Table of Contents 
+## Table of Contents 
 
 - [Features](#features)
 - [Technologies Used](#Technologies)
@@ -16,7 +16,7 @@ Table of Contents
 
 ## Features
 
-User authentication and authorization
+User authentication and authorization - JWT Token
 
 Product catalog with filtering and sorting options
 
@@ -76,7 +76,7 @@ Manage orders through the admin panel
 
 Complete checkout using the integrated payment system
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to improve the app, follow these steps:
 
