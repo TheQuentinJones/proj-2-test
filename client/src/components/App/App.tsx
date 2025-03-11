@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import Home from '../Home/Home'; 
 import { CartProvider } from '../Cart/CartContext';
 import Login from '../Login/Login';
-import ItemDetails from './ItemDetails/ItemDetails';
+import ItemDetails from '../itemDetails';
 import Cart from '../Cart/Cart';
 import Footer from '../Footer/Footer';
 
