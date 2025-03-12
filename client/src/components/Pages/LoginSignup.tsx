@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './LoginSignup.css';
+import './Loginsignup.css';
 
 const LoginSignup: React.FC = () => {
   return (
