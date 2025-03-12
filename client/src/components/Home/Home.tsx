@@ -5,12 +5,12 @@ import { useCart } from '../Cart/CartContext';
 import Navbar from '../Navbar/Navbar'; // Ensure that the Navbar component exists in the correct directory
 import Footer from '../Footer/Footer';
 
-import IMG1 from '../assets/Bottle1.jpeg';
-import IMG2 from '../assets/coder_life_shirt.jpeg';
-import IMG3 from '../assets/mug1.webp';
-import IMG4 from '../assets/Cap1.jpg';
-import IMG5 from '../assets/Mug2.webp';
-import IMG6 from '../assets/Cap3.jpg';
+import IMG1 from '../assets/images/Bottle1.jpeg';
+import IMG2 from '../assets/images/coder_life_shirt.jpeg';
+import IMG3 from '../assets/images/mug.webp';
+import IMG4 from '../assets/images/Cap1.jpg';
+import IMG5 from '../assets/images/Mug2.webp';
+import IMG6 from '../assets/images/Cap3.jpg';
 
 const items = [
   {

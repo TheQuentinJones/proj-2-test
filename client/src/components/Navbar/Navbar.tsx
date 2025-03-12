@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
-import logo from '../assets/logo.png';
-import cart from '../assets/cart.png';
-import { useCart } from '../Cart/CartContext';
+import logo from '../assets/images/logo.png';
+import cart from '../assets/images/cart.png';
+import { useCart } from '../Cart/CartContext.tsx';
 
 const Navbar: React.FC = () => {
   const { cartCount } = useCart();
